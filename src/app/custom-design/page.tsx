@@ -54,7 +54,13 @@ const CustomDesign = () => {
           ref={phoneCaseRef}
           className="relative w-60 h-[480px] bg-neutral-600"
         >
-          <Image src="" alt="Phone Image" layout="fill" objectFit="contain" />
+          <Image
+            src="/case-template.png"
+            alt="Phone Image"
+            layout="fill"
+            objectFit="contain"
+            className="pointer-events-none z-50 select-none"
+          />
         </div>
         <Rnd
           default={{
